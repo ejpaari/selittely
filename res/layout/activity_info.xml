@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|left"
+    android:orientation="vertical"
+    tools:context=".DisplayMessageActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="@string/text_info" />
+
+</LinearLayout>

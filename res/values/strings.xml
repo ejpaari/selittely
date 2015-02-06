@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Selityspeli</string>
+    <string name="action_info">Ohje</string>
+    <string name="button_start">Aloita!</string>
+    <string name="button_pass">Ohi</string>
+    <string name="button_next">Seuraava</string>
+    <string name="button_ok">OK</string>
+    <string name="radio_words">Sanat</string>
+    <string name="radio_people">Ihmiset</string>
+    <string name="text_choose_topic">Valitse aihe</string>
+    <string name="text_set_time">Aseta aika</string>
+    <string name="text_explain">Selitä:</string>
+    <string name="text_empty"></string>
+    <string name="text_time_left">Aika:</string>
+    <string name="text_info">Sananselitys: selitä sana sanomatta selitettävää sanaa</string>
+    <string name="title_activity_play">Selitä!</string>
+    <string name="title_activity_info">Ohje</string>
+
+</resources>
