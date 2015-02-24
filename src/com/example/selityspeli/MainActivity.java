@@ -23,12 +23,14 @@ import android.widget.TextView;
 public class MainActivity extends Activity 
 {	
 	private final int NUM_SELECTED_WORDS = 100;
+	private final int MIN_TIME = 15;
+	private final int MAX_TIME = 90;
 	
 	private SeekBar bar;
 	private TextView timeText;
 	private RadioButton wordsRadio;
 	private RadioButton peopleRadio;
-	private int time = 0;
+	private int time = 30;
 	private DatabaseAdapter databaseHelper;
 	ArrayList<String> wordsList = new ArrayList<String>();
 	ArrayList<String> peopleList = new ArrayList<String>();
@@ -43,6 +45,7 @@ public class MainActivity extends Activity
         
         timeText = (TextView) findViewById(R.id.time);
         bar = (SeekBar) findViewById(R.id.set_time);
+        bar.setProgress(MIN_TIME + (int)(30.0/100.0 * (float)time));
         wordsRadio = (RadioButton) findViewById(R.id.radio_words);
         peopleRadio = (RadioButton) findViewById(R.id.radio_people);
         random = new Random();
@@ -59,8 +62,8 @@ public class MainActivity extends Activity
 			@Override
 			public void onProgressChanged(SeekBar seekBar, int progress,
 					boolean fromUser) {
-				time = progress;
-				timeText.setText(Integer.toString(progress) + " s");
+				time = MIN_TIME + (int)((float)(MAX_TIME - MIN_TIME) * (float)(progress / 100.0));
+				timeText.setText(Integer.toString(time) + " s");
 			}
 
 			@Override

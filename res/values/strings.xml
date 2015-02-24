@@ -14,7 +14,7 @@
     <string name="text_explain">Selitä:</string>
     <string name="text_empty"></string>
     <string name="text_time_left">Aika:</string>
-    <string name="text_info">Sananselitys: selitä sana sanomatta selitettävää sanaa</string>
+    <string name="text_info">Sananselitys: selitä sana sanomatta selitettävää sanaa, sanan runkoa tai yhdyssanojen tapauksessa mitään sanoista. Sanoja ei saa selittää kääntämällä niitä jollekin toiselle kielelle.\n\nVastaavasti ihmiset-kategoriassa ihmisen tai hahmon nimeä ei saa sanoa.\n\nPeliä voi vaikeuttaa rajoittamalla, että kuinka monella sanalla sanan tai hahmon saa selittää.</string>
     <string name="title_activity_play">Selitä!</string>
     <string name="title_activity_info">Ohje</string>
 
