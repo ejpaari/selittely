@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -19,6 +18,7 @@ import android.widget.RadioButton;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+import com.superjustus.selityspeli.R;
 
 public class MainActivity extends Activity 
 {	

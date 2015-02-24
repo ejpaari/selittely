@@ -2,7 +2,6 @@ package com.example.selityspeli;
 
 import java.io.IOException;
 import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -14,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import com.superjustus.selityspeli.R;
 
 public class PlayActivity extends Activity {
 
